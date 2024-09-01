@@ -15,8 +15,8 @@ public class UniqueArray {
             int temp = scanner.nextInt();
             boolean isDuplicate = false;
 
-            for (int k : array) {
-                if (temp == k) {
+            for (int j : array) {
+                if (temp == j) {
                     isDuplicate = true;
                     break;
                 }
